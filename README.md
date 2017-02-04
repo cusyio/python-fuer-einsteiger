@@ -39,12 +39,10 @@ TODO
 
 * die Python-Konsole
 * ein Programm schreiben
-* Textausgabe
 * Variablen
 * Integer und Floats
 * arithmetische Operatoren
-* Strings
-* Typumwandlungen
+* Textausgabe
 
 ### Listen
 
@@ -59,6 +57,7 @@ TODO
 
 * Textdateien lesen
 * Textdateien schreiben
+* Typumwandlungen
 * Unicode
 * Verzeichnisse navigieren
 * Interaktion mit dem Betriebssystem
