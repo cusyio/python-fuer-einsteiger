@@ -25,9 +25,9 @@ TODO
 
 | Tag 1 | Tag 2 | Tag 3 | Tag 4 |
 |-------|-------|-------|-------|
-| Erste Schritte   | Dateien lesen | Dictionaries | Module in Python |
-| Listen           | Dateien schreiben | Klassen | größere Programme |
-| Kontrollfluß     | Funktionen | Datenmodellierung | Entwicklungstools |
+| Erste Schritte   | Funktionen | Dictionaries | Klassen |
+| Listen           | Stringverarbeitung | Datenstrukturen | größere Programme |
+| Dateien lesen und schreiben  | Recherche im Web | Module in Python | Entwicklungstools |
 | Programmierübung | Programmierübung | Programmierübung | Abschlußübung |
 
 
