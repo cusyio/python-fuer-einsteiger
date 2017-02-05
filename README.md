@@ -58,9 +58,7 @@ TODO
 * Textdateien lesen
 * Textdateien schreiben
 * Typumwandlungen
-* Unicode
 * Verzeichnisse navigieren
-* Interaktion mit dem Betriebssystem
 
 ### Programmierübung: "Babynamen"
 
@@ -86,6 +84,7 @@ TODO
 * Methoden von Strings
 * Parsen von Text
 * reguläre Ausdrücke
+* Unicode
 
 ### Recherche im Web
 
@@ -125,6 +124,7 @@ TODO
 * Der Paketmanager pip
 * verbreitete Python-Module
 * Lesen verbreiteter Formate (CSV, Excel, XML)
+* Interaktion mit dem Betriebssystem
 * Datenanalyse
 * Datenvisualisierung
 * Datenbanken
