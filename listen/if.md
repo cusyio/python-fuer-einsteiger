@@ -14,7 +14,7 @@ Führe das folgende Programm aus. Was wird berechnet?
 
     boys = 0
     girls = 0
-    for line in open('yob2015.txt'):
+    for line in open('names/yob2015.txt'):
         if ",M," in line:
             boys = boys + 1
         elif ",F," in line:
@@ -43,22 +43,24 @@ Schreibe ein Programm, das die Zeilen aus der Datei `yob2014.txt` einliest. Find
 
 ### Aufgabe 4
 
-Wie viele unterschiedliche *Mädchennamen* mit `'M'` gab es 2015?
+Wie viele unterschiedliche *Mädchennamen* mit `'B'` gab es 2015?
+
+**Sortiere** die folgenden Programmzeilen und **rücke sie ein**:
+
+    girls = 0
+
+    if "B" in line:
+
+    print(girls)
+
+    if ",F," in line:
+
+    for line in open('names/yob2015.txt'):
+
+    girls += 1
 
 
 ### Aufgabe 5
-
-Das folgende Programm gibt alle Vornamen aus, die öfter als 10000 Mal vorkommen. Finde drei Fehler im Programm und korrigiere sie:
-
-    dateiname = "yob2015"
-    for line in open(dateiname):
-        columns = line.strip().split()
-        anzahl = int(columns[2])
-    if anzahl < 10000:
-        print(columns[1])
-
-
-### Aufgabe 6
 
 Sammle **Operatoren**, **Datentypen** und **Python-Befehle**, die Du bisher kennen gelernt hast als Tabelle.
 
