@@ -27,3 +27,11 @@ Das Programm enthält **drei Defekte**. Finde und behebe diese.
 ### Aufgabe 2
 
 Verwende `zip()`, um das Programm zu vereinfachen.
+
+### Aufgabe 3
+
+Schreibe ein Programm, das aktuelle Nachrichten von einem der RSS-Kanäle auf [http://www.presseportal.de/feeds/](http://www.presseportal.de/feeds/) herunterlädt.
+
+* Lade das Verzeichnis der aktuellen Beiträge herunter.
+* Speichere die Beiträge in einer Datei.
+* Gib die Titel der Beiträge aus.
