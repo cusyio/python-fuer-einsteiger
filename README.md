@@ -15,7 +15,9 @@ keine
 
 ## Kursbeschreibung
 
-TODO
+Jeder kann programmieren! Das Ziel dieses Kurses ist, Leuten mit wenig oder keiner Vorerfahrung das Programmieren in Python näher zu bringen. Indem Sie viele kleine Programmierübungen selbst absolvieren, lernen sie nacheinander die wichtigsten Python-Befehle kennen. Am Ende werden Sie in der Lage sein, diese eigenständig anzuwenden und die nächsten Lernschritte selbst zu gehen.
+Dieser Kurs läßt die graue Theorie beiseite und ist dafür da, Sie die meiste Zeit selbst Programme schreiben zu lassen.
+
 
 ## Kursdauer 
 
@@ -90,9 +92,8 @@ TODO
 
 * Das Modul `requests`
 * HTTP-Anfragen verschicken
+* Formulare ausfüllen
 * Inhalte von Webseiten parsen
-* Module importieren
-* eigene Module schreiben
 
 ### Programmierübung: "Newsticker"
 
