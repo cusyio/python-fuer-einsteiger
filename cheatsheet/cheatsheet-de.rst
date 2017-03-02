@@ -1,5 +1,7 @@
-Python (3.6): Cheat-sheet
-=========================
+Python-Kurzanleitung
+====================
+
+Diese Anleitung bezieht sich auf Python 3.6.
 
 Code-Struktur
 -------------
@@ -10,13 +12,13 @@ Funktionseinheiten in Modulen (Dateien) und Paketen (Verzeichnissen), jede
 Quelldatei importiert alle von ihr benutzten Module::
 
   import math
-  for x in range(0, 10):  # numbers 0 <= x < 10
+  for x in range(0, (4+1)*2):  # numbers 0 <= x < 10
       y = math.sqrt(x)
       print('The square root of {} is {}'.format(
               x, y))
   
-*Variablennamen:* Buchstaben (Unicode, Groß- und Kleinschreibung unterschieden),
-Ziffern und ``_``.
+*Variablennamen:* Können Buchstaben (Unicode, Groß- und Kleinschreibung
+unterschieden), Ziffern und ``_`` enthalten.
 
 *Programmierstil:* Konvention nach PEP8 <https://python.org/dev/peps/pep-0008/>
 
@@ -73,20 +75,20 @@ Ein- und Ausgabe::
   input([prompt])         open(file, ...)
   print(*objects, file=sys.stdout, ...)
 
-Darstellung von Objekten::
-
-  ascii(obj)              format(obj[, format_spec])
-  repr(obj)
-
-Iteratoren::
+Kollektionen::
 
   iter(obj[, sentinel])   next(iterator)
   all(iterable)           filter(function, iterable)
   any(iterable)           map(function, *iterables)
-  max(...)                reversed(sequence)
-  min(...)                sorted(iterable, ...)
+  max(iterable)           reversed(sequence)
+  min(iterable)           sorted(iterable, ...)
   sum(iterable[, start])  enumerate(iterable)
   zip(*iterables)
+
+Darstellung von Objekten::
+
+  ascii(obj)              format(obj[, format_spec])
+  repr(obj)
 
 Manipulation von Objekten, Reflexion::
 

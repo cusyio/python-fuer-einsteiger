@@ -1,5 +1,7 @@
-Python (3.6) cheat sheet
-========================
+Python cheat sheet
+==================
+
+This cheat sheet refers to Python 3.6.
 
 Code structure
 --------------
@@ -10,15 +12,16 @@ Functional units go into modules (files) and packages (directories); each
 source file imports any modules it uses::
 
   import math
-  for x in range(0, 10):  # numbers 0 <= x < 10
+  for x in range(0, (4+1)*2):  # numbers 0 <= x < 10
       y = math.sqrt(x)
       print('The square root of {} is {}'.format(
               x, y))
   
-*Variable names:* letters (unicode, case-sensitive), numerals and ``_``.
+*Variable names:* May contain letters (unicode, case-sensitive), numerals and
+``_``.
 
 *Coding style:* conventions according to PEP8
-  <https://python.org/dev/peps/pep-0008/>
+<https://python.org/dev/peps/pep-0008/>
 
 
 Logic and flow control
@@ -73,20 +76,20 @@ Input and output::
   input([prompt])         open(file, ...)
   print(*objects, file=sys.stdout, ...)
 
-Object representation::
-
-  ascii(obj)              format(obj[, format_spec])
-  repr(obj)
-
-Iterators::
+Collections::
 
   iter(obj[, sentinel])   next(iterator)
   all(iterable)           filter(function, iterable)
   any(iterable)           map(function, *iterables)
-  max(...)                reversed(sequence)
-  min(...)                sorted(iterable, ...)
-  sum(iterable[, start])  enumerate(iterable)
-  zip(*iterables)
+  max(iterable)           reversed(sequence)
+  min(iterable)           sorted(iterable, ...)
+  len(sequence)           enumerate(iterable)
+  sum(iterable[, start])  zip(*iterables)
+
+Object representation::
+
+  ascii(obj)              format(obj[, format_spec])
+  repr(obj)
 
 Object manipulation and reflection::
 
