@@ -29,9 +29,9 @@ for x in range(0, (4+1)*2):  # numbers 0 <= x < 10
 *Conditions:* compound statement or expression:
 
 ```python
-if x < y:               print('yes'
-    print(x)                   if some_condition
-elif x > y:                    else 'no')
+if x < y:               print('equal'
+    print(x)                   if x == y
+elif x > y:                    else 'unequal')
     print(y)
 else:
     print('equal')

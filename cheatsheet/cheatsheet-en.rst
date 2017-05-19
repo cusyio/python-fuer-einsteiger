@@ -29,9 +29,9 @@ Logic and flow control
 
 *Conditions:* compound statement or expression::
 
-  if x < y:               print('yes'
-      print(x)                   if some_condition
-  elif x > y:                    else 'no')
+  if x < y:               print('equal'
+      print(x)                   if x == y
+  elif x > y:                    else 'unequal')
       print(y)
   else:
       print('equal')
